@@ -1,0 +1,9 @@
+---Inbound:
+
+CREATE OR REPLACE DIRECTORY XXES_IN_SRC_DIR AS '/orahome/app/oraerp/19.3.0/po/release/data/in/src';
+GRANT READ, WRITE ON DIRECTORY XXES_IN_SRC_DIR TO APPS;
+
+CREATE OR REPLACE DIRECTORY XXES_IN_BKP_DIR AS '/orahome/app/oraerp/19.3.0/po/release/data/in/bkp';
+GRANT READ, WRITE ON DIRECTORY XXES_IN_BKP_DIR TO APPS;
+
+/
