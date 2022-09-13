@@ -49,7 +49,7 @@ FNDLOAD apps/<pwd> 0 Y UPLOAD $FND_TOP/patch/115/import/afcpprog.lct XXES_INBOUN
   
   @xxes_inbound_int_pkg.pkb
   
-**7. Assign Concurrent Programs to the required Responsibility**
+**7. Assign Concurrent Program to the required Responsibility**
    
    **Concurrent Program Name:** Escorts SFTP - Escorts ERP Inbound Process Program
   
