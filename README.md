@@ -32,8 +32,8 @@ FNDLOAD apps/<PWD> O Y UPLOAD $FND_TOP/patch/115/import/aflvmlu.lct XXES_SFTP_IN
   
 **5. Concurrent Programs**
   
-**Concurrent Program Name:** Escorts SFTP - Escorts ERP Inbound Process Program(XXES_INBOUND_PROCESS)
-  **Concurrent Program Short Name:** XXES_INBOUND_PROCESS
+**Concurrent Program Name:** Escorts SFTP - Escorts ERP Inbound Process Program
+**Concurrent Program Short Name:** XXES_INBOUND_PROCESS
 
 **Download:**
 
@@ -49,5 +49,7 @@ FNDLOAD apps/<pwd> 0 Y UPLOAD $FND_TOP/patch/115/import/afcpprog.lct XXES_INBOUN
   
   @xxes_inbound_int_pkg.pkb
   
-  7. Assign Concurrent Programs to the required Responsibility
+**7. Assign Concurrent Programs to the required Responsibility**
+   
+   **Concurrent Program Name:** Escorts SFTP - Escorts ERP Inbound Process Program
   
