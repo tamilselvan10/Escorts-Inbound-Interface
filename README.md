@@ -52,13 +52,13 @@ FNDLOAD apps/<pwd> 0 Y UPLOAD $FND_TOP/patch/115/import/afcpprog.lct XXES_INBOUN
    **Concurrent Program Name:** Escorts SFTP - Escorts ERP Inbound Process Program
    
    
-   Note: Check the lookup details
+   **Note:** Check the lookup details
    
-   Navigate: Application Developer --> Application --> common --> lookups
+   **Navigate:** Application Developer --> Application --> common --> lookups
    
-   Lookup Type:XXES_SFTP_INBOUND_LKPS
+   **Lookup Type:** XXES_SFTP_INBOUND_LKPS
    
-   Source Directory Path: /BACKUP_prod/po/release/data/in/src
+   **Source Directory Path:** /BACKUP_prod/po/release/data/in/src
    
-   Backup Directory Path: /BACKUP_prod/po/release/data/in/bkp
+   **Backup Directory Path:** /BACKUP_prod/po/release/data/in/bkp
    
