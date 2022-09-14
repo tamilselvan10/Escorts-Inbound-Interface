@@ -13,9 +13,7 @@
 
 @Inbound Directories.sql
 
-**3. Profile Option**
-
-**4. Lookups**
+**3. Lookups**
 
 **Source:** Escorts - TEST
 
@@ -30,7 +28,7 @@ FNDLOAD apps/<PWD> 0 Y DOWNLOAD $FND_TOP/patch/115/import/aflvmlu.lct XXES_SFTP_
 FNDLOAD apps/<PWD> O Y UPLOAD $FND_TOP/patch/115/import/aflvmlu.lct XXES_SFTP_INBOUND_LKPS.ldt UPLOAD_MODE=REPLACE CUSTOM_MODE=FORCE
   
   
-**5. Concurrent Programs**
+**4. Concurrent Programs**
   
 **Concurrent Program Name:** Escorts SFTP - Escorts ERP Inbound Process Program
 **Concurrent Program Short Name:** XXES_INBOUND_PROCESS
@@ -43,13 +41,16 @@ FNDLOAD apps/<pwd> O Y DOWNLOAD $FND_TOP/patch/115/import/afcpprog.lct XXES_INBO
 
 FNDLOAD apps/<pwd> 0 Y UPLOAD $FND_TOP/patch/115/import/afcpprog.lct XXES_INBOUND_PROCESS.ldt - WARNING=YES UPLOAD_MODE=REPLACE CUSTOM_MODE=FORCE
   
-**6. Create Packages**
+**5. Create Packages**
   
   @xxes_inbound_int_pkg.pks
   
   @xxes_inbound_int_pkg.pkb
   
-**7. Assign Concurrent Program to the required Responsibility**
+**6. Assign Concurrent Program to the required Responsibility**
    
    **Concurrent Program Name:** Escorts SFTP - Escorts ERP Inbound Process Program
+   
+   
+   Note: Check the lookup values XXES_SFTP_INBOUND_LKPS
   
